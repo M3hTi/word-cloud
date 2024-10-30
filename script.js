@@ -139,6 +139,7 @@ function showWordCloud(arr, max) {
         // Add some spacing between words
         word.style.margin = '0.25em';
         word.style.display = 'inline-block';
+        showWordCloudElement.style.background = 'radial-gradient(circle, #ff7e5f, #feb47b)';
        showWordCloudElement.appendChild(word)
     }
 }
